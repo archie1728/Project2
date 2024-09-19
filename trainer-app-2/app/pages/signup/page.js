@@ -1,5 +1,6 @@
+'use client';
 import { useForm } from "react-hook-form";
-   import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
    export default function Signup() {
      const { register, handleSubmit } = useForm();
